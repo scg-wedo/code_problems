@@ -4,7 +4,7 @@
 
 1. **Create a Spring Boot Project:**
 
-- Use Spring Initializr to create a new Spring Boot project.
+- Use Spring Initialize to create a new Spring Boot project.
 - Select dependencies: Spring Web, Spring Data JPA, H2 Database (or MySQL), Spring Boot DevTools.
 
 2. **Create an Entity for Book:**
@@ -26,7 +26,7 @@
 
 5. **Create a Controller:**
 
-   - Create a BookController class with endpoints for managing books:
+   - Create a BookController class with endpoints for managing and validate books:
      - GET /books - Retrieve all books.
      - GET /books/{id} - Retrieve a book by ID.
      - POST /books - Add a new book.
@@ -34,5 +34,8 @@
      - DELETE /books/{id} - Delete a book by ID.
 
 6. **Test the System:**
+
    - Unit test coverage.
    - Use Postman or other tools to test the created API.
+
+7. **You can put ideas to improve the project's outstanding:**
